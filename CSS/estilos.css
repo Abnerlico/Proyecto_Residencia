@@ -1,6 +1,6 @@
-.login{
-  background: #00ff45;
+body, .login-submit, .login-submit:before, .login-submit:after {
+  background: #373737 url("../img/bg.png") 0 0 repeat;
 }
-.Fondo{
-    height="20"
+.login{
+    margin: 100px;
 }

@@ -2,5 +2,18 @@ body, .login-submit, .login-submit:before, .login-submit:after {
   background: #373737 url("../img/bg.png") 0 0 repeat;
 }
 .login{
-    margin: 100px;
+  position: relative;
+  margin: 80px auto;
+  width: 300px;
+  padding-right: 32px;
+  font-weight: 300;
+  color: #a8a7a8;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+.login p {
+  margin: 0 0 10px;
+}
+.login p+p {
+  margin: 0 0 10px;
+  padding-left: 33px
 }

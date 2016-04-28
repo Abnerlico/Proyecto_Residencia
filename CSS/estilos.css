@@ -13,7 +13,10 @@ body, .login-submit, .login-submit:before, .login-submit:after {
 .login p {
   margin: 0 0 10px;
 }
-.login p+p {
+.login .contra {
   margin: 0 0 10px;
-  padding-left: 33px
+  padding-left: 33px;
+}
+.login .login-submit{
+    padding-left: 222px;
 }

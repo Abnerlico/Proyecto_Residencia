@@ -4,7 +4,7 @@ div{
     border-radius:6px;
 }
 body, .login-submit, .login-submit:before, .login-submit:after {
-  background: #373737 url("../img/bg.png") 0 0 repeat;
+  background: #f80000 url("../img/bg.png") 0 0 repeat;
 }
 .login{
   position: relative;

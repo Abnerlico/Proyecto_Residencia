@@ -1,0 +1,46 @@
+div{
+    background: rgba(30, 83, 93, 0.27);
+    height:250px;
+    border-radius:6px;
+}
+body, .login-submit, .login-submit:before, .login-submit:after {
+  background: #373737 url("../img/bg.png") 0 0 repeat;
+}
+.login{
+  position: relative;
+  margin: 80px auto;
+  width: 300px;
+  padding-right: 32px;
+  font-weight: 300;
+  color: #a8a7a8;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+.login p {
+  margin: 0 0 10px;
+  padding-left: 13px;
+}
+.login .contra {
+  margin: 0 0 10px;
+  padding-left: 33px;
+}
+.login .login-submit{
+    padding-left: 222px;
+}
+.login .olvide-contra{
+    padding-left: 94px;
+}
+input{
+    height: 23px;
+    border-radius:4px;
+}
+img{
+    padding-left: 0px;
+    padding-right: 195px;
+}
+button{
+    height: 28px;
+    border-radius:4px;
+}
+div .boton{
+    padding-left: 236px;
+}

@@ -5,8 +5,8 @@
 }
 section#banner{
     width: 100%;
-    background-image: url(IMAGINDEX/paraweb.png);
+    background-image: url(../IMGINDEX/paraweb.png);
     background-attachment: contain;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }

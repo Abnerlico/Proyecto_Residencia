@@ -44,3 +44,11 @@ button{
 div .boton{
     padding-left: 236px;
 }
+booter{
+  margin: 2345678px auto;
+  width: 300px;
+  padding-right: 32px;
+  font-weight: 300;
+  color: #a8a7a8;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}

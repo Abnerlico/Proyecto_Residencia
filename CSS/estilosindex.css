@@ -5,10 +5,11 @@
 }
 section#banner{
     width: 100%;
-    background-image: url(../IMGINDEX/web.png);
+    background-image: url(../IMGINDEX/fondo%20alabanza%20mas%20ver%20y%20mejor%20cara.png);
     background-attachment: contain;
     background-position: top;
     background-repeat: no-repeat;
+
 }
 header{
     position: fixed;

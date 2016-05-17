@@ -5,7 +5,7 @@
 }
 section#banner{
     width: 100%;
-    background-image: url(../IMGINDEX/fondo%20alabanza%20mas%20ver%20y%20mejor%20cara.png);
+    background-image: url(../IMGINDEX/RESIDENCIAS-TARAPOTO2.jpg);
     background-attachment: contain;
     background-position: top;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ header{
     position: fixed;
     width: 100%;
     height: 14%;
-    background-color: red;
+    background-color: #3b00ac;
 }
 nav{
     display: table;

@@ -5,9 +5,9 @@ $(document).ready(function(){
     $(window).scroll(function(){
         scroll = $(window).scrollTop();
         if(scroll>200){
-            $("#logo").css({"margin-top": "-5px", "width": "50px", "height":"50px"})
+            $("#logo").css({"margin-top": "-8px", "width": "50px", "height":"76px"})
         }else{
-            $("#logo").css({"margin-top": "150px", "width": "250px", "height":"250px"})
+            $("#logo").css({"margin-top": "50px", "width": "366px", "height":"556px"})
         }
 
     });

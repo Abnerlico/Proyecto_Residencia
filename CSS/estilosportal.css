@@ -17,6 +17,7 @@ header{
     height: 14%;
     background-color: #101fd3;
     /*background-color: transparent;*/
+    /*-webkit-transition: background-color .5s;*/
 }
 nav{
     display: table;

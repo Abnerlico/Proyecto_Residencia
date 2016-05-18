@@ -5,9 +5,15 @@ $(document).ready(function(){
     $(window).scroll(function(){
         scroll = $(window).scrollTop();
         if(scroll>200){
-            $("#logo").css({"margin-top": "-8px", "width": "50px", "height":"76px"})
+            if(!flag){
+               $("#logo").css({"margin-top": "-8px", "width": "50px", "height":"76px"})
+               flag = true;
+            }
         }else{
-            $("#logo").css({"margin-top": "50px", "width": "366px", "height":"556px"})
+            if(flag){
+              $("#logo").css({"margin-top": "50px", "width": "366px", "height":"556px"})
+              flag=false;
+            }
         }
 
     });

@@ -22,7 +22,7 @@ nav{
     margin: auto;
     margin-top: 15px;
     height: 40px;
-    background-color: green;
+    /*background-color: green;*/
     -webkit-transition: margin-left .5s;
 }
 ul{

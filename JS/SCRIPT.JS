@@ -12,7 +12,7 @@ $(document).ready(function(){
         }else{
             if(flag){
               $("#logo").css({"margin-top": "50px", "width": "366px", "height":"556px"})
-              flag=false;
+              flag = false;
             }
         }
 

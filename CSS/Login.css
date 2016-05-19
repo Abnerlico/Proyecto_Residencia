@@ -1,0 +1,11 @@
+*{
+    background: #030210
+}
+div{
+
+    background: #fff;
+    border-radius: 5px;
+    width: 600px;
+    height: 600px;
+    display: block;
+}

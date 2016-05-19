@@ -3,25 +3,25 @@
 }
 div{
     margin:200px auto;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 5px;
     width: 370px;
     height: 300px;
     display: block;
-    border:3px solid rgba(0, 0, 0, 0.26)
+    border:2px solid rgba(47, 189, 242, 0.22)
 }
 h2{
     text-align: center;
     background: none;
-    color: #400048;
-    margin: 20px ;
+    color: rgba(59, 154, 74, 0.85);
+    margin: 25px ;
 }
 #pass,#user{
     color: aqua;
     border-radius: 5px;
     height: 35px;
     width: 260px;
-    margin: 20px;
+    margin: 20px auto;
     display: block;
 }
 input[type="submit"]{
@@ -29,7 +29,6 @@ input[type="submit"]{
     border-radius: 5px;
     height: 45px;
     width: 100px;
-    margin: 19px;
+    margin: auto;
     display: block;
-    float: right;
 }

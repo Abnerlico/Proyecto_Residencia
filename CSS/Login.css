@@ -1,11 +1,35 @@
 *{
-    background: #030210
+    background: #04031a
 }
 div{
-
-    background: #fff;
+    margin:200px auto;
+    background: rgb(255, 255, 255);
     border-radius: 5px;
-    width: 600px;
-    height: 600px;
+    width: 370px;
+    height: 300px;
     display: block;
+    border:3px solid rgba(0, 0, 0, 0.26)
+}
+h2{
+    text-align: center;
+    background: none;
+    color: #400048;
+    margin: 20px ;
+}
+#pass,#user{
+    color: aqua;
+    border-radius: 5px;
+    height: 35px;
+    width: 260px;
+    margin: 20px;
+    display: block;
+}
+input[type="submit"]{
+    color: #fff;
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+    margin: 19px;
+    display: block;
+    float: right;
 }

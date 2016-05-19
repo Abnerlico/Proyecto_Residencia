@@ -8,15 +8,16 @@ div{
     width: 370px;
     height: 300px;
     display: block;
-    border:2px solid rgba(47, 189, 242, 0.22)
+    border:1px solid red;
 }
 h2{
     text-align: center;
     background: none;
-    color: rgba(59, 154, 74, 0.85);
+    color: rgba(59, 154, 143, 0.82);
     margin: 27px ;
 }
 #pass,#user{
+    border:1px solid red;
     color: aqua;
     border-radius: 5px;
     height: 35px;
@@ -31,4 +32,5 @@ input[type="submit"]{
     width: 100px;
     margin: auto;
     display: block;
+    border:1px solid red;
 }

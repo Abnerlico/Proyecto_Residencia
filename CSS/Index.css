@@ -1,8 +1,17 @@
 *{
-    background: rgba(252, 252, 252, 0.9);
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing:border-box ;
+    box-sizing:border-box ;
 }
 nav{
     background: rgba(105, 105, 105, 0.38);
-    height: 50px;
-    width: 100%;
+}
+.menu_bar{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
 }

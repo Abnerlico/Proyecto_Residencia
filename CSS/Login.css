@@ -3,21 +3,27 @@
 }
 div{
     margin:200px auto;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(92, 79, 250, 0.05);
     border-radius: 5px;
     width: 370px;
     height: 300px;
     display: block;
-    border:1px solid red;
+    border:1px solid rgba(7, 66, 96, 0.37);
 }
-h2{
+p{
     text-align: center;
-    background: none;
-    color: rgba(59, 154, 143, 0.82);
-    margin: 27px ;
+    background: rgba(7, 17, 96, 0.18);
+    color: rgba(72, 199, 185, 0.47);
+    margin:27px;
+    font-size: 27px;
+    font-family: Cambria Math;
+    border:1px solid rgba(7, 66, 96, 0.37);
+    border-radius: 3px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.72);
+
 }
 #pass,#user{
-    border:1px solid red;
+    border:1px  #0c006c;
     color: aqua;
     border-radius: 5px;
     height: 35px;
@@ -26,11 +32,15 @@ h2{
     display: block;
 }
 input[type="submit"]{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.65);
     border-radius: 5px;
     height: 45px;
     width: 100px;
     margin: auto;
     display: block;
-    border:1px solid red;
+    border:1px red;
+}
+input:hover{
+    background: rgba(0, 98, 255, 0.05);
+    border:1px solid rgba(7, 66, 96, 0.37);
 }

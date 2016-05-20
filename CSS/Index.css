@@ -1,1 +1,8 @@
-
+*{
+    background: rgba(252, 252, 252, 0.9);
+}
+nav{
+    background: rgba(105, 105, 105, 0.38);
+    height: 50px;
+    width: 100%;
+}

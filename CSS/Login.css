@@ -2,7 +2,7 @@
     background: #04031a
 }
 div{
-    margin:198px auto;
+    margin:196px auto;
     background: rgba(92, 79, 250, 0.05);
     border-radius: 5px;
     width: 370px;
@@ -12,11 +12,11 @@ div{
 }
 p{
     text-align: center;
-    background: rgba(7, 17, 96, 0.18);
+    background: rgba(7, 17, 96, 0.11);
     color: rgba(72, 199, 185, 0.47);
     margin:27px;
-    font-size: 27px;
-    font-family: Cambria Math;
+    font-size: 31px;
+    font-family: Gabriola;
     border:1px solid rgba(7, 66, 96, 0.37);
     border-radius: 3px;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.59);
@@ -26,7 +26,7 @@ input{
     text-underline-position: left
 }
 #pass,#user{
-    border:1px  #0c006c;
+    border:5px solid rgba(4, 3, 26, 0);
     color: aqua;
     border-radius: 5px;
     height: 35px;
@@ -42,6 +42,7 @@ input[type="submit"]{
     margin: auto;
     display: block;
     border:1px red;
+    font-family: cursive
 }
 input:hover{
     background: rgba(0, 98, 255, 0.05);

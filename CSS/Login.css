@@ -29,7 +29,7 @@ input{
     border:5px solid rgba(4, 3, 26, 0);
     color: aqua;
     border-radius: 5px;
-    height: 35px;
+    height: 30px;
     width: 280px;
     margin: 20px auto;
     display: block;
@@ -42,7 +42,7 @@ input[type="submit"]{
     margin: auto;
     display: block;
     border:1px red;
-    font-family: cursive
+    font-family: cursive;
 }
 input:hover{
     background: rgba(0, 98, 255, 0.05);

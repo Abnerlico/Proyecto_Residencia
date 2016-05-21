@@ -6,7 +6,7 @@ div.pastor{
     height: 400px;/*cuan largo sera el div*/
     float: left;/*alienacion*/
     margin-top: 90px;/*margen superior*/
-    margin-left: 180px;/*margen isquierdo*/
+    margin-left: 210px;/*margen isquierdo*/
     margin-right: -80px/*seraracion entre div*/
 }
 div#ballena{
@@ -20,13 +20,13 @@ img.usera{
     display: block;/*centrar*/
     margin: 50px auto;/*margen superion en el div*/
     background-color: red;
-    width: 200px;
-    border-radius: 100px;
+    width: 200px;/*proporcion de ancho imagen*/
+    border-radius: 100px;/*dando forma a la imagen*/
 }
 img.userb{
     display: block;/*centrar*/
     margin: 50px auto;/*margen superion en el div*/
     background-color: red;
     width: 200px;/*proporcion de ancho imagen*/
-    border-radius: 100px;
+    border-radius: 100px;/*dando forma a la imagen*/
 }

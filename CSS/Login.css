@@ -1,5 +1,5 @@
 *{
-    background: #04031a
+    background: #04031a ;
 }
 div{
     margin:196px auto;
@@ -33,6 +33,14 @@ input{
     width: 280px;
     margin: 20px auto;
     display: block;
+}
+button{
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    text-decoration: none;
 }
 input[type="submit"]{
     color: rgba(255, 255, 255, 0.65);

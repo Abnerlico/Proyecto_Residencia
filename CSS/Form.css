@@ -22,9 +22,10 @@ body h1{
     text-align: center;
 }
 table{
-    margin:40px 20px;
-    border: 1px solid #000072;
-    padding: 10px 10px;
+    margin:20px 0px;
+    padding: px;
+    background: rgba(172, 172, 172, 0.74);
+    border-top-left-radius: 5px;
 }
 div{
     background: none;
@@ -55,11 +56,17 @@ input[type="button"]:hover{
     color: #f7f7f7;
     border: 2px solid #5f0101;
 }
+td{
+    padding-left: 10px;
+    height: 40px
+}
 tr td[id="codigo"]{
-    background: red;
-    border: 2px solid black;
-    margin: 0px;
+    background: rgba(27, 0, 177, 0.28);
+    border-top-left-radius: 5px;;
+    color: #014e0a;
+    width: 100px;
 }
 tr td[id="nombre"]{
-    background: red;
+    background: rgba(188, 217, 252, 0.55);
+    width: 200px;
 }

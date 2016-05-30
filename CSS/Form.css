@@ -21,7 +21,7 @@ body h1{
     text-shadow:#0c375c 4px 2px 7px;
     text-align: center;
 }
-#buscador input[type="text"]{
+.codigo{
     background: #fff;
     height: 40px;
     border-top-left-radius: 10px;
@@ -33,6 +33,12 @@ body h1{
     color: gray;
     border: 2px solid rgba(92, 96, 96, 0.47);
 
+}
+.codigo:hover{
+    background: rgba(226, 255, 0, 0.08);
+}
+#buscador{
+    background: none;
 }
 .busca{
     background: rgb(147, 0, 0);
@@ -46,10 +52,16 @@ body h1{
 }
 .busca:hover{
     background: red;
-    box-shadow: gray 4px 4px 7px;
+    box-shadow: gray 2px 2px 7px;
     text-shadow: #5f0101 3px 2px 1px;
 }
+/*efectos de tabla*/
 table{
-    margin:20px 0px;
-    padding: px;
+    margin:30px auto;
+    background: none;
+}
+th{
+    background: greenyellow;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid green;
 }

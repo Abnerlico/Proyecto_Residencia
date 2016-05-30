@@ -11,7 +11,8 @@ body{
     border-bottom-left-radius: 20px;
     border: 3px solid rgba(172, 168, 168, 0.97);
     height: 640px;
-    padding: 10px 20px
+    padding: 10px 20px;
+
 }
 body h1{
     background: none;
@@ -57,11 +58,42 @@ body h1{
 }
 /*efectos de tabla*/
 table{
-    margin:30px auto;
-    background: none;
+    margin:30px 20px;
+    background: rgba(33, 165, 43, 0.15);;
+    table-layout: auto;
 }
+/*Cabecera*/
 th{
     background: greenyellow;
     border-top-right-radius: 10px;
     border-bottom: 2px solid green;
+    width: 150px;
+    height:40px;
+    font-family: BankGothic Lt BT;
+}
+#c_cod{
+    width: 100px;
+    border-left:2px solid greenyellow;
+}
+#c_alumn{
+    width: 250px;
+}
+td{
+    padding-left: 5px;
+    background: none;
+    border-collapse:collapse;
+}
+td:hover{
+    background: yellow;
+}
+
+#data{
+    width:400px;
+}
+#txt_name{
+    overflow:hidden;
+    height: 20px;
+}
+#txt_code1{
+    border-left:2px solid green;
 }

@@ -43,9 +43,10 @@ div{
     border: 2px solid rgba(92, 96, 96, 0.47);
 
 }
-input[type="button"]:hover{
+input[type="button"]:hover {
     background: black;
 }
+
 #buscador input[type="button"]{
     background: rgb(147, 0, 0);
     height: 46px;
@@ -56,6 +57,7 @@ input[type="button"]:hover{
     color: #f7f7f7;
     border: 2px solid #5f0101;
 }
-input:active,input:hover{
+
+input[type="text"]:hover {
     background-color: rebeccapurple;
 }

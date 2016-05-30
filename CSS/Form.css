@@ -8,6 +8,7 @@ body{
     background: rgba(255, 255, 255, 0.69);
     margin: 20px 50px;
     border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     border: 3px solid rgba(172, 168, 168, 0.97);
     height: 640px;
     padding: 10px 20px
@@ -40,6 +41,9 @@ div{
     color: gray;
     border: 2px solid rgba(92, 96, 96, 0.47);
 
+}
+input[type="button"]:hover{
+    background: black;
 }
 #buscador input[type="button"]{
     background: rgb(147, 0, 0);

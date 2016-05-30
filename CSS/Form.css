@@ -56,17 +56,6 @@ input[type="button"]:hover{
     color: #f7f7f7;
     border: 2px solid #5f0101;
 }
-td{
-    padding-left: 10px;
-    height: 40px
-}
-tr td[id="codigo"]{
-    background: rgba(27, 0, 177, 0.28);
-    border-top-left-radius: 5px;;
-    color: #014e0a;
-    width: 100px;
-}
-tr td[id="nombre"]{
-    background: rgba(188, 217, 252, 0.55);
-    width: 200px;
+input:active,input:hover{
+    background-color: rebeccapurple;
 }

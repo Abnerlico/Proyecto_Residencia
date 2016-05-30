@@ -21,15 +21,6 @@ body h1{
     text-shadow:#0c375c 4px 2px 7px;
     text-align: center;
 }
-table{
-    margin:20px 0px;
-    padding: px;
-    background: rgba(172, 172, 172, 0.74);
-    border-top-left-radius: 5px;
-}
-div{
-    background: none;
-}
 #buscador input[type="text"]{
     background: #fff;
     height: 40px;
@@ -43,13 +34,9 @@ div{
     border: 2px solid rgba(92, 96, 96, 0.47);
 
 }
-input[type="button"]:hover {
-    background: black;
-}
-
-#buscador input[type="button"]{
+.busca{
     background: rgb(147, 0, 0);
-    height: 46px;
+    height: 45px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 100px;
@@ -57,7 +44,12 @@ input[type="button"]:hover {
     color: #f7f7f7;
     border: 2px solid #5f0101;
 }
-
-input[type="text"]:hover {
-    background-color: rebeccapurple;
+.busca:hover{
+    background: red;
+    box-shadow: gray 4px 4px 7px;
+    text-shadow: #5f0101 3px 2px 1px;
+}
+table{
+    margin:20px 0px;
+    padding: px;
 }

@@ -1,0 +1,109 @@
+*{
+    background: url(/IMG/IMG_1855.JPG);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+body{
+    background: rgba(255, 255, 255, 0.69);
+    margin: 20px 40px;
+    border-top-right-radius: 400px;
+    border-bottom-left-radius: 400px;
+    border: 3px solid rgba(172, 168, 168, 0.97);
+    height: 630px;
+    width: 90%;
+    padding: 10px 20px;
+    position: fixed;
+}
+body h1{
+    background: none;
+    color: #0a043b;
+    font-size: px;
+    font-family: BankGothic Lt BT;
+    text-shadow:#0c375c 4px 2px 7px;
+    text-align: center;
+    margin:30px;
+    margin-bottom: 35px;
+}
+body h2{
+    background: none;
+    color: #0a043b;
+    font-size: px;
+    font-family: BankGothic Lt BT;
+    text-shadow:#0c375c 4px 2px 7px;
+    text-align: center;
+    margin:30px;
+    margin-bottom: 35px;
+}
+img{
+    width: 100px;
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 100px;
+    background: none;
+}
+.codigo{
+    background: #fff;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 23px;
+    padding-left: 5px;
+    width: 300px;
+    font-size: 14px;
+    color: gray;
+    border: 2px solid rgba(92, 96, 96, 0.47);
+
+}
+#buscador{
+    background: none;
+    margin-left: 385px;
+    margin-right: 200px;
+}
+.busca{
+    background: rgb(119, 0, 147);
+    height: 36px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+    font-size: 15px;
+    color: #f7f7f7;
+    border: 2px solid #08015f;
+}
+.busca:hover{
+    border: 2px solid #08015f;
+    background: #6f015a;
+    box-shadow: #100262 2px 2px 5px;
+    text-shadow: #5f0101 3px 2px 1px;
+}
+.busca:active{
+    transform: scale(0.99);
+}
+/*efectos de tabla*/
+table{
+    margin:20px auto;
+    background: none;
+    table-layout: auto;
+}
+#c_cod{
+    width: 60px;
+    border-left:2px solid green;
+}
+#c_alumn{
+    width:150px;
+}
+#c_out,#c_return,#c_place,#c_mot{
+    width:100px;
+}
+th{
+    background: greenyellow;
+    border-bottom: 2px solid green;
+    height:25px;
+    font-family: BankGothic Lt BT;
+    font-size: 12px;
+}
+td{
+    text-align: center;
+    background:#fff;
+    font-size:12px;
+}

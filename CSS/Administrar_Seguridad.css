@@ -104,40 +104,16 @@ th{
 }
 td{
     text-align: center;
-    background:#fff;
+    background:none;
     font-size:12px;
 }
+tr{
+  background: rgba(255, 255, 255, 0.69);
+}
+tr:hover{
+    background:rgba(158, 240, 202, 0.75);
+}
+
 /*trabajando con el manu*/
-body nav{
-    background: #023859;
-    z-index: 1000;
-    max-width: 1000px;
-    width: 95%;
-    margin: 20px auto;
-}
-body nav ul{
-    list-style: none;
-    background:none;
-}
-body nav ul li{
-    display: inline-block;
-    background: none;
-    position: relative;
-}
-body nav ul li a{
-    background: #023859;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-}
-body nav ul li:hover .children{
-    display: block;
-}
-body nav ul li .children{
-    display: none;
-    background:#0a043b;
-    position: absolute;
-    width: 150%;
-    z-index: 1000;
-}
+
 

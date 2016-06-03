@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <style>
+        body{
+            background: green;
+            margin: 360px 220px;
+            border: 2px solid yellow;
+            width: 400px;
+            height: 300px;
+        }
+        #boton{
+            background: linear-gradient(black,green,black);
+            color:aliceblue;
+            position:relative;
+            border: 2px solid black;
+            padding: 50px 30px;;
+            border-radius: 90px;
+            font-size: 40px;
+            font-family: cursive;
+            text-decoration: none;
+            text-shadow: black 4px 4px 3px;
+            box-shadow: black 4px 4px 7px;
+
+        }
+        #boton:hover{
+            background: linear-gradient(black, #b1a01d,black);
+        }
+        #boton:active{
+            transform: scale(0.95);
+        }
+        .children{
+            background: #e59595;
+            position:absolute;
+            list-style: none;
+            display:none;
+        }
+        .children li{
+            background: blue;
+            height: 20px;
+            padding: 20px;
+        }
+        .children li a{
+             color: aliceblue;
+             text-decoration: none;
+            padding: 20px;
+            width: 300px;
+        }
+        .children li:hover{
+            background: red;
+        }
+        .botton{
+            margin: 160px 200px;
+        }
+        .botton:hover .children{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+
+
+   <ul class="botton">
+       <li><a id="boton"href="#">Menu</a></li>
+       <ul class="children">
+         <li><a href="#">Nuevo Permiso</a></li>
+         <li><a href="#">Ver Historial</a></li>
+         <li><a href="#">Crear Informe</a></li>
+         <li><a href="#">Salir</a></li>
+</ul>
+   </ul>
+
+</body>
+</html>

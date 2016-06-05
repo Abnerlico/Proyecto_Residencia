@@ -1,5 +1,5 @@
 *{
-    background: url(/IMG/IMG_1855.JPG);
+   background: url(/IMG/110035125.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center;
@@ -7,9 +7,10 @@
 body{
     background: rgba(255, 255, 255, 0.69);
     margin: 20px 40px;
-    border-top-right-radius: 400px;
-    border-bottom-left-radius: 400px;
-    border: 3px solid rgba(172, 168, 168, 0.97);
+    border-radius: 5px;
+    /*border-top-right-radius: 400px;
+    border-bottom-left-radius: 400px;*/
+    border: 2px solid rgba(16, 0, 212, 0.58);
     height: 630px;
     width: 90%;
     padding: 10px 20px;
@@ -100,12 +101,11 @@ th{
     border-bottom: 2px solid green;
     height:25px;
     font-family: BankGothic Lt BT;
-    font-size: 12px;
 }
 td{
+    border: none;
     text-align: center;
     background:none;
-    font-size:12px;
 }
 tr{
   background: rgba(255, 255, 255, 0.69);

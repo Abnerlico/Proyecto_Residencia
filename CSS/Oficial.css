@@ -1,5 +1,63 @@
 *{
-
+    background: rgba(54, 0, 108, 0.63);
+    margin: 0px;
+    padding: 0px;
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 body{
+    margin: 0px;
+    margin-top: 0px;
+}
+#Title{
+    background: #fff;
+    margin-top: 0px;
+     background: linear-gradient(#00173c, #8d10d0,#d8b8b8);
+    float: inherit;
+}
+h1{
+    font-family: Bookman Old Style;
+    text-align: center;
+    background: none;
+    padding-top: 20px;
+    text-shadow: black 3px 3px 4px;
+    color: #bcd400;
+}
+header{
+    background: black;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+header nav a{
+    padding: 10px;
+    background-color: #2b08ef;
+    text-decoration: none;
+    font-family: cursive;
+    color: aliceblue;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    background: linear-gradient(black, #1d1db1,black);
+    transition:all 0.3s linear;
+	box-shadow: 2px 2px 4px 0px #006773;
+}
+header nav a:hover, audio:focus, audio:active
+	{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+        transform: scale(1.05);
+        background: linear-gradient(black, #ff0000,black);
+	}
+#video h2{
+    background: none;
+}
+#video{
+    background: linear-gradient(#d8b8b8, #ffffff);
+    padding-top: 30px
+}
+#video form{
+    float:right;
 }

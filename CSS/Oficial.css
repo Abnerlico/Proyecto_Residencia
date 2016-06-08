@@ -1,5 +1,4 @@
 *{
-    background: rgba(54, 0, 108, 0.63);
     margin: 0px;
     padding: 0px;
     background-attachment:fixed;
@@ -11,7 +10,49 @@ body{
     margin: 0px;
     margin-top: 0px;
 }
-#Title{
+#fegado{
+    padding: 10px;
+    width: 40px;
+    position:fixed;
+    background: red;
+    background-attachment: fixed;
+    margin-top: 250px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0, 6, 149, 0.99),rgb(9, 5, 64));
+    margin-left: 25px;
+    border: 2px solid #000000;
+    box-shadow: #000000 4px 4px 5px;
+
+}
+#fegado:hover{
+    transition:all 0.3s linear;
+    padding: 20px;
+    background: #c42c2c;
+}
+
+#fegado a{
+   text-decoration: none;
+    font-size: 30px;
+}
+#fegado a span{
+    background: none;
+    margin: 5px;
+    color:#fff;
+
+}
+#fegado a span:hover{
+    background: none;
+    color: #ffff00;
+    transition:all 0.3s linear;
+}
+img{
+    width: 70px;
+    position:fixed;
+    background: none;
+    background-attachment: fixed;
+    margin-left: 40px;
+}
+#casa{
     background: #fff;
     margin-top: 0px;
      background: linear-gradient(#00173c, #8d10d0,#d8b8b8);
@@ -25,42 +66,89 @@ h1{
     text-shadow: black 3px 3px 4px;
     color: #bcd400;
 }
+
 header{
-    background: black;
+    background: #420045;
     margin-top: 50px;
     border-radius: 10px;
     padding-left: 20px;
 }
-header nav a{
+#casa header nav a{
     padding: 10px;
     background-color: #2b08ef;
     text-decoration: none;
     font-family: cursive;
     color: aliceblue;
-    border-bottom-left-radius: 35px;
-    border-top-right-radius: 35px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
     background: linear-gradient(black, #1d1db1,black);
     transition:all 0.3s linear;
 	box-shadow: 2px 2px 4px 0px #006773;
 }
-header nav a:hover, audio:focus, audio:active
-	{
+#casa header nav a:hover, audio:focus, audio:active{
         padding-top: 15px;
         padding-bottom: 15px;
         box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
         transform: scale(1.05);
         background: linear-gradient(black, #ff0000,black);
-	}
+}
 span{
     margin: 5px;
+    color: aqua;
 }
-#video h2{
+#baner{
+    padding-top: 30px;
+    height: 510px;
+}
+#baner h2{
+    text-align: center;
     background: none;
 }
-#video{
-    background: linear-gradient(#d8b8b8, #ffffff);
-    padding-top: 30px
+#informacion{
+    background:rgba(255, 248, 238, 0.83);
+    padding-top: 30px;
+    height: 660px;
 }
-#video form{
-    float:right;
+#ambiente{
+    background:rgba(78, 255, 0, 0.11);
+    padding-top: 30px;
+    height: 660px;
+}
+#encargados{
+    background: linear-gradient(rgba(255, 246, 0, 0.28),#ffffff, rgba(0, 0, 255, 0.16));
+    padding-top: 30px;
+    height: 670px;
+}
+/*Trabajkando con el formi¿ulario*/
+#contactar{
+    background: black;
+    padding-top: 30px;
+    height: 600px;
+}
+form{
+    margin: auto;
+    height: 500px;
+    width: 600px;
+    border-left: 8px solid red;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    padding: 30px;
+    background: rgba(38, 3, 3, 0.31);
+}
+input{
+    padding-left: 5px;
+    background: #0c0c10;
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    border-left: 8px solid red;
+}
+footer{
+    height:15px;
+    background: red;
+    text-align: center;
+    padding: 30px;
 }

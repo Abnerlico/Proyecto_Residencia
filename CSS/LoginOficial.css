@@ -16,7 +16,7 @@ form{
     background: linear-gradient(#f7f7ff, #dddddd, #a0a0a0);
     padding: 30px;/*relleno*/
     border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 10px;/*bordes del cuadro*/
+    border-radius: 0px;/*bordes del cuadro*/
 }
 img{
     display: block;/*centrar*/

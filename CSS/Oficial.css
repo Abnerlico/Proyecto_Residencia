@@ -51,6 +51,9 @@ header nav a:hover, audio:focus, audio:active
         transform: scale(1.05);
         background: linear-gradient(black, #ff0000,black);
 	}
+span{
+    margin: 5px;
+}
 #video h2{
     background: none;
 }

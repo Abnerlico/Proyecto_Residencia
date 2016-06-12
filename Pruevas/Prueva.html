@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <style>
+        body{
+            background: green;
+            margin: 360px 220px;
+            border: 2px solid yellow;
+            width: 400px;
+            height: 300px;
+        }
+        #boton{
+            background: linear-gradient(black,green,black);
+            color:aliceblue;
+            position:relative;
+            border: 2px solid black;
+            padding: 50px 30px;;
+            border-radius: 90px;
+            font-size: 40px;
+            font-family: cursive;
+            text-decoration: none;
+            text-shadow: black 4px 4px 3px;
+            box-shadow: black 4px 4px 7px;
+
+        }
+        #boton:hover{
+            background: linear-gradient(black, #b1a01d,black);
+        }
+        #boton:active{
+            transform: scale(0.95);
+        }
+        .children{
+            background: #e59595;
+            position:absolute;
+            list-style: none;
+            display:none;
+        }
+        .children li{
+            background: blue;
+            height: 20px;
+            padding: 20px;
+        }
+        .children li a{
+             color: aliceblue;
+             text-decoration: none;
+            padding: 20px;
+            width: 300px;
+        }
+        .children li:hover{
+            background: red;
+        }
+        .botton{
+            margin: 160px 200px;
+        }
+        .botton:hover .children{
+            display:block;
+        }
+        #progress-0 {
+    border:1px solid black;
+    width:500px;
+    background:#999;
+    text-align:center;
+}
+
+#progress-1 {
+    border:1px solid black;
+    width:500px;
+    background:#999;
+    text-align:center;
+    margin-top:10px;
+    border-radius: 10px;
+}
+
+#progress-2 {
+    border:1px solid black;
+    width:500px;
+    background:#999;
+    text-align:center;
+    margin-top:10px;
+}
+
+#progress-3 {
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    background:#999;
+    line-height: 100px;
+    text-align:center;
+    margin-top:10px;
+    border-radius: 200px;
+}
+
+    </style>
+    <script>
+    function show_progress(i) {
+    var progress1 = i;
+    var progress2 = progress1+1;
+    var progress3 = progress1+2;
+
+    var magic = "linear-gradient(to right, #FFC2CE " + progress1  + "% ,red " + progress2  + "% , #FFFFFF " + progress3  + "%)";
+    document.getElementById("progress-0").style.background = magic;
+
+    var magic = "linear-gradient(to right, lightblue " + progress1  + "% , lightgreen " + progress2  + "%)";
+    document.getElementById("progress-1").style.background = magic;
+
+    var magic = "linear-gradient(to right, lightblue " + progress1  + "% , #FFFFFF 100%)";
+    document.getElementById("progress-2").style.background = magic;
+
+    var magic = "linear-gradient(#FFC2CE " + progress1  + "% ,red " + progress2  + "% , #FFFFFF " + progress3  + "%)";
+    document.getElementById("progress-3").style.background = magic;
+ }
+
+
+function timeout(){
+     t = setTimeout(function(){
+        show_progress(t)
+        timeout();
+    },50);
+    if (t == 78) { clearTimeout(t); }
+    console.log(t);
+}
+
+timeout();
+    </script>
+</head>
+<body>
+
+
+  <!--<ul class="botton">
+       <li><a id="boton"href="#">Menu</a></li>
+       <ul class="children">
+         <li><a href="#">Nuevo Permiso</a></li>
+         <li><a href="#">Ver Historial</a></li>
+         <li><a href="#">Crear Informe</a></li>
+         <li><a href="#">Salir</a></li>
+  </ul>-->
+
+<div id="progress-0">Loading</div>
+<input id="progress-1" value="Loading"></input>
+<button id="progress-2" onclick="show_progress()">Loading</button>
+<p id="progress-3">Loading</p>
+
+</body>
+</html>

@@ -1,7 +1,6 @@
 $(document).ready(function(){
     $("#banner").css({"height":$(window).height()+"px"})
-<<<<<<< HEAD
-=======
+
     var flag = false;
     var scroll;
     $(window).scroll(function(){
@@ -21,5 +20,5 @@ $(document).ready(function(){
         }
 
     });
->>>>>>> Proyecto_Residencia/master
+
 });

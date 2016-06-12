@@ -61,7 +61,8 @@ table{
     background: none;
 }
 th{
-    background: greenyellow;
-    border-top-right-radius: 10px;
+
+    background: #3cb3f2; /*color de  tabla titulo*/
+    /*border-top-right-radius: 10px;*/
     border-bottom: 2px solid green;
 }

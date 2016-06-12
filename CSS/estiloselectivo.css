@@ -1,5 +1,5 @@
 *{
-    background-color: #f0f0f0
+    background-color: #e5e5e5
 }
 div.pastor{
     width: 400px;/*cuan anchosera el div*/
@@ -15,6 +15,15 @@ div#ballena{
 div#elias{
     background-color: rgb(22,145,100);
 
+}
+form{/*ojo recien lompongo*/
+    margin: auto;
+    width: 50%;/*cuan anchosera ser4a el cuadro*/
+    max-width: 500px;/*maximo ancho*/
+    background: linear-gradient(#f7f7ff, #dddddd, #a0a0a0);
+    padding: 30px;/*relleno*/
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;/*bordes del cuadro*/
 }
 img.usera{
     display: block;/*centrar*/

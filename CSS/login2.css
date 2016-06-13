@@ -20,7 +20,7 @@ form{
     max-width: 400px;/*maximo ancho*/
     background: linear-gradient(#f7f7ff, #dddddd, #a0a0a0);
     padding: 30px;/*relleno*/
-    border: 1px solid rgba(75, 75, 69, 0.2);
+    border: 1px solid #383838; /*rgba(75, 75, 69, 0.2); una variante que describe una combinacion s ecuencial  de la cantidad  d e4coores añadida*/
     border-radius: 10px;/*bordes del cuadro*/
     box-shadow: rgb(0, 37, 80) 0px 0px 40px  2px;/*sombra 1. color 2. izquierda derecha 3. ARRIBA ABAJO 4. OPACIDAD 5. GROSOR */
 }

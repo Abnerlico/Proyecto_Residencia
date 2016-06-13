@@ -51,11 +51,12 @@ input{
 input[type="submit"]{
     background: linear-gradient(#ffea4b, #b1a01d);
     border: 0;
-    color: #0224b2;
+    color: #1838bc;
     opacity: 0.8;
     cursor: pointer;
     border-radius: 20px;
     margin-bottom: 0;
+    /*font-family: "arial black"; letra que  le ase quedar mas negrita*/
     /*margin-left: 70px; /*margen izquierdo*/
     /*width: 60%; /*ancho del boton*/
 

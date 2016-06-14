@@ -1,5 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: sans-serif;/*formato letra*/
+    box-sizing: border-box;
+}
 body{
-    background:url(/IMGINDEX/fon%203.png);
+    background:url(/IMGINDEX/fon%203.png);/*fondo  d ela tablas*/
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+/*div{
+    background-color: aliceblue;
+}*/

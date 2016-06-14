@@ -20,8 +20,13 @@ form{
     max-width: 400px;/*maximo ancho*/
     background: linear-gradient(#f7f7ff, #dddddd, #a0a0a0);
     padding: 30px;/*relleno*/
+<<<<<<< HEAD
     border: 1px solid rgba(255, 239, 48, 0.2);
     border-radius: 10px;/*bordes del cuadro*/
+=======
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 0px;/*bordes del cuadro*/
+>>>>>>> origin/master
 }
 img{
     display: block;/*centrar*/

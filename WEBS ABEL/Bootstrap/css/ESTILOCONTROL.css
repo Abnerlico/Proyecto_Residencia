@@ -4,11 +4,14 @@
     /*font-family: sans-serif;/*formato letra*/
     box-sizing: border-box;
 }
+/*div{
+    display: block;
+}*/
 .container {
-	background: #c3e5e8;
+	background: #c3e5e8; 
 }
 .mi_columna{
-    background: #90b7ba;
+    background: #ffffff;
     border: 1px solid #b4d3d6;
     border-radius: 4px;
 }

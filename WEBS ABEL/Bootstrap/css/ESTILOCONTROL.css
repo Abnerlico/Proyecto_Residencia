@@ -4,6 +4,14 @@
     /*font-family: sans-serif;/*formato letra*/
     box-sizing: border-box;
 }
+.container {
+	background: #c3e5e8;
+}
+.mi_columna{
+    background: #90b7ba;
+    border: 1px solid #b4d3d6;
+    border-radius: 4px;
+}
 body{
     background:url(/IMGINDEX/fon%203.png);/*fondo  d ela tablas*/
     background-attachment: fixed;
